@@ -1,0 +1,22 @@
+{
+  "name": "react-demo",
+  "version": "1.0.0",
+  "description": "It's a simple demo for react and Redux.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run dev"
+  },
+  "author": "Ethan",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "react-redux": "^5.0.2"
+  },
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "babel": "^6.5.2",
+    "webpack": "^2.2.1"
+  }
+}
