@@ -7,9 +7,8 @@ import App from './components/App'
 
 let store = createStore(todoApp)
 
-render(
+ReactDOM.render(
   <Provider store={store}>
-    <App/>,  
+    <App/>  
     </Provider>,
-  document.getElementById('root')
-)
+  document.getElementById('root'));
