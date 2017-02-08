@@ -1,10 +1,10 @@
 {
-  "name": "react-demo",
+  "name": "redux-demo",
   "version": "1.0.0",
   "description": "It's a simple demo for react and Redux.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --colors --devtool --inline --content-base .",
     "start": "npm run dev"
   },
   "author": "Ethan",
